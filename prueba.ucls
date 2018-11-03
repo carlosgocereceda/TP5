@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="es.ucm.fdi.tp.base.console.ConsolePlayer" project="P4-Tu-Nombre-Aqui" 
+    file="/P4-Tu-Nombre-Aqui/src/main/java/es/ucm/fdi/tp/base/console/ConsolePlayer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="188" width="172" x="15" y="5"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="es.ucm.fdi.tp.was.WolfAndSheepState" project="P4-Tu-Nombre-Aqui" 
+    file="/P4-Tu-Nombre-Aqui/src/main/java/es/ucm/fdi/tp/was/WolfAndSheepState.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="404" width="301" x="631" y="38"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="es.ucm.fdi.tp.base.Utils" project="P4-Tu-Nombre-Aqui" 
+    file="/P4-Tu-Nombre-Aqui/src/main/java/es/ucm/fdi/tp/base/Utils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="108" y="265"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="es.ucm.fdi.tp.was.WolfAndSheepAction" project="P4-Tu-Nombre-Aqui" 
+    file="/P4-Tu-Nombre-Aqui/src/main/java/es/ucm/fdi/tp/was/WolfAndSheepAction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="219" width="221" x="222" y="227"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="es.ucm.fdi.tp.base.model.GameAction" project="P4-Tu-Nombre-Aqui" 
+    file="/P4-Tu-Nombre-Aqui/src/main/java/es/ucm/fdi/tp/base/model/GameAction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="81" y="385"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="6" language="java" name="es.ucm.fdi.tp.base.model.GamePlayer" project="P4-Tu-Nombre-Aqui" 
+    file="/P4-Tu-Nombre-Aqui/src/main/java/es/ucm/fdi/tp/base/model/GamePlayer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="286" y="81"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="es.ucm.fdi.tp.base.model.GameState" project="P4-Tu-Nombre-Aqui" 
+    file="/P4-Tu-Nombre-Aqui/src/main/java/es/ucm/fdi/tp/base/model/GameState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="242" width="143" x="453" y="211"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="es.ucm.fdi.tp.base.model.GameError" project="P4-Tu-Nombre-Aqui" 
+    file="/P4-Tu-Nombre-Aqui/src/main/java/es/ucm/fdi/tp/base/model/GameError.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="494" y="87"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <realization id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
